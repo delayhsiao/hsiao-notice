@@ -1,0 +1,16 @@
+/* Page Css */
+html {font-size:10px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+body {padding:0;margin:0;}
+button {line-height:30px;min-width:80px;padding:0;border:0;cursor: pointer;border-radius: 3px;color:#FFF}
+	button.success-notice {background-color: #5cb85c}
+	button.error-notice {background-color: #fe4d4d}
+	button.info-notice {background-color: #31b0d5}
+h1,p {padding:0 20px;}
+
+/* Hsiao-Notice */
+.api-notice {width:100%;height:50px;position:fixed;filter:alpha(opacity=70);-moz-opacity:0.70;opacity:0.70;top:0}
+.api-notice.success {background-color:#5cb85c;}
+.api-notice.error {background-color:#fe4d4d;}
+.api-notice.info {background-color:#31b0d5;}
+	.api-notice .api-notice-content {text-align:center;line-height:50px;font-size:1.5rem;color:#FFF}
+		.api-notice .api-notice-content i {margin-right:10px;}

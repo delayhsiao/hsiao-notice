@@ -15,7 +15,7 @@ $.notice = function(options){
 			return false;
 		}
 		notice_box = '<div class="api-notice '+setting.type+'" style="display:none"></div>';
-		$(setting.context).after(notice_box);
+		$(setting.context).append(notice_box);
 		/*if($(document).scrollTop() > $('.api-nav').height()){
 			$('.api-notice').css('top',0);
 		}*/
