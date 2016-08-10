@@ -1,3 +1,10 @@
+/*!
+ * Hsiao-Notice 0.1.0 (http://www.fackyou.org)
+ * 自用JQuery轻量级提示插件
+ * Author：Delay.Hsiao <fuck@fackyou.org/547084615>
+ * Licensed under the MIT license
+ */
+
 $.notice = function(options){
 	var config = {
 		type : null,
