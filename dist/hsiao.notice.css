@@ -9,12 +9,12 @@ h1 {font-size:2.2rem !important}
 h2 {font-size:1.8rem !important}
 h1,h2,h4,h6,p,div {padding:0 20px;font-size:1.5rem}
 blockquote,code {background-color: #EEE;display: inline-block;border-radius: 5px;}
-code {padding:10px 20px;-webkit-margin-start:40px;font-size:1.5rem}
+code {padding:10px 20px;-webkit-margin-start:40px;font-size:1.5rem;margin-bottom:20px}
 
 /* Hsiao-Notice */
-.api-notice {width:100%;height:50px;position:fixed;filter:alpha(opacity=70);-moz-opacity:0.70;opacity:0.70;top:0}
-.api-notice.success {background-color:#5cb85c;}
-.api-notice.error {background-color:#fe4d4d;}
-.api-notice.info {background-color:#31b0d5;}
-	.api-notice .api-notice-content {text-align:center;line-height:50px;font-size:1.5rem;color:#FFF}
-		.api-notice .api-notice-content i {margin-right:10px;}
+.dn-notice {width:100%;height:50px;position:fixed;filter:alpha(opacity=70);-moz-opacity:0.70;opacity:0.70;top:0}
+.dn-notice.success {background-color:#5cb85c;}
+.dn-notice.error {background-color:#fe4d4d;}
+.dn-notice.info {background-color:#31b0d5;}
+	.dn-notice .dn-notice-content {text-align:center;line-height:50px;font-size:1.5rem;color:#FFF}
+		.dn-notice .dn-notice-content i {margin-right:10px;}
