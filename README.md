@@ -1,4 +1,4 @@
-# Hsiao-Notice 0.1.0
+# Hsiao-Notice 0.2.0
 Hsiao-Notice是一个轻量级的jQuery提示框插件，作用范围比较小，基本上我也不指望你们能够奋起而用之，反正也是我自己用的比较多，所以这个README就随便瞎写写了。
 目前Hsiao-Notice支持的参数有：
 
@@ -20,7 +20,15 @@ $.notice({
 });
 ```
 
-#### 扩展用法
+#### 封装版用法如下：
+```
+HsiaoNotice.success('you click the success button');
+HsiaoNotice.success('you click the success button',function(){
+    console.log('I am back!');
+});
+```
+
+#### 扩展用法：
 ###### 你可以增加使用几种属性
 ```
 $.notice({
@@ -32,6 +40,7 @@ $.notice({
     }
 });
 ```
+
 -------
 ###### 补充说明
 **context属性的设定**
@@ -41,3 +50,10 @@ $.notice({
 **样式的说明**
 
 样式文件可以随便拿去用，没有路径指定，可以把CSS代码扒出来贴到你自己项目的CSS公共文件中。
+
+**修改保持时间**
+
+修改保持时间的语法适用于封装版
+```
+HsiaoNotice.outtime(2000);
+```
